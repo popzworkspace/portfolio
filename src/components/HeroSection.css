@@ -1,0 +1,40 @@
+
+  .nav-links {
+    position: absolute;
+  top: 30px;
+  right: 0px; 
+    display: flex;
+    list-style: none;
+    justify-content: flex-end; /* Aligns to the right */
+    gap: 20px; /* Adds spacing between links */
+    padding: 20px 50px; /* Padding for the navigation area */
+    background-color: transparent; /* Adjust based on the background */
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: rgb(198, 198, 198); /* Default text color for links */
+    font-size: 16px;
+    font-family: "Lufga", sans-serif; /* Example font family */
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: white; /* Slightly lighter color on hover */
+  }
+  
+  .contact-button {
+    color: black;
+    background-color: rgb(31, 3, 79); /* Lime green background */
+    font-size: 16px;
+    font-family: "Lufga", sans-serif;
+    padding: 10px 20px; /* Padding for the button */
+    border-radius: 20px; /* Makes it rounded */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    background-color: #9b29b8; /* Slightly darker green on hover */
+   
+  }
+  
